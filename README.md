@@ -1,5 +1,20 @@
 # TodoApp
 
+<video controls src="20251209-1205-05.1388581.mp4" title=""></video>
+
+A simple and interactive Course Application that allows users to browse courses, in todo list.
+View list of available courses
+
+-select a courses
+-View detailed course information
+-Add course to favorites
+-Enroll in a course
+-Clean responsive UI
+
+
+
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
 
 ## Development server
