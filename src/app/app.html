@@ -1,0 +1,75 @@
+<div class="overall_div">
+<div class="title">
+<p>{{ titles() }}</p>
+</div>
+<div class="course">
+<button (click)="titles.set('Full stack')" class="course-button">Full stack</button>
+<button (click)="titles.set('Front End')" class="course-button">Frent End</button>
+<button (click)="titles.set('Back End')" class="course-button">Back End</button>
+<button (click)="titles.set('Select Your Course')" class="course-button">Reset</button>
+</div>
+<div class="botom_div">
+  <div class="customised-course">
+    <h1>Customised Course</h1>
+  </div>
+
+  <div class="customised-course-checkboxlist">
+    <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="java()" (change)="java.set($event.target.checked ? 'JAVA' : '')"/>
+     <p class="coursename">JAVA</p>
+  </div>
+   <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="javasript()" (change)="javasript.set($event.target.checked ? 'JAVA SCRIPT' : '')"/>
+     <p class="coursename">java script</p>
+  </div>
+  <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="sql()" (change)="sql.set($event.target.checked ? 'SQL' : '')"/>
+     <p class="coursename">SQL</p>
+  </div>
+  <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="html()" (change)="html.set($event.target.checked ? 'HTML' : '')"/>
+     <p class="coursename">HTML</p>
+  </div>
+  <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="css()" (change)="css.set($event.target.checked ? 'CSS' : '')"/>
+     <p class="coursename">CSS</p>
+  </div>
+  <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="c()" (change)="c.set($event.target.checked ? 'C' : '')"/>
+     <p class="coursename">C</p>
+  </div>
+  <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="cs()" (change)="cs.set($event.target.checked ? 'C++' : '')"/>
+     <p class="coursename">C++</p>
+  </div>
+  <div class="checkbox-and-course"> 
+     <input type="Checkbox" [checked]="python()" (change)="python.set($event.target.checked ? 'PYTHON' : '')"/>
+     <p class="coursename">PYTHON</p>
+  </div>
+
+  </div>
+  
+ 
+</div>
+
+  <div class="select">  
+   <div class="title_select">
+    <h1 class="resolt">CUSTOMISED COURSE</h1>
+    <h1 class="resolt">{{java()}}</h1>
+    <h1 class="resolt">{{javasript()}}</h1>
+    <h1 class="resolt">{{sql()}}</h1>
+    <h1 class="resolt">{{html()}}</h1>
+    <h1 class="resolt">{{css()}}</h1>
+    <h1 class="resolt">{{c()}}</h1>
+    <h1 class="resolt">{{cs()}}</h1>
+    <h1 class="resolt">{{python()}}</h1>
+   </div>
+  </div>
+
+
+  
+ 
+
+
+</div>
+<router-outlet />

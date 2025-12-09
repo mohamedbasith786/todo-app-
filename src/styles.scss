@@ -1,0 +1,90 @@
+$primary-color:rgb(240, 127, 70);
+
+.overall_div{
+   background-color: black;
+   height: 150vh;
+   margin: 0px;
+   padding: 40px;
+   color: white;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: "Roboto";
+    background-color:$primary-color;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.course-button{
+    background-color:$primary-color;
+    padding: 10px;
+    border: none;
+    color:white;
+    width: 100px;
+    border-radius: 100px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.botom_div{
+    background-color: dodgerblue;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.customised-course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Roboto";
+}
+.checkbox-and-course{
+    display: flex;
+    flex-direction: row;
+
+}
+.customised-course-checkboxlist{
+    display: flex;
+    justify-content:space-around;
+    float: row;
+
+}
+.click-course{
+    background-color: cyan;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+
+}
+.title_select{
+    background-color: $primary-color;
+    padding: auto;
+    border-radius: 20px;
+    width: auto;
+    text-align: center;
+    
+}
+.coursename{
+    font-family: "Roboto";
+
+}
+.resolt{
+    margin: 20px;
+    font-family: "Roboto";
+}
